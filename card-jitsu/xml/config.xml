@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section id="CARD_JITSU_MINI_SITE">
+	
+	<language>EN</language>
+	
+	<tracking src="./swf/analyticReportingAS3.swf"/>
+	
+	<cdn_url href="../"/>
+	
+	<ui_list type="array">
+		<item id="play" href="http://play.clubpenguin.com/?login=true&amp;rm=320" fontSrc="com:clubpenguin:web:libs:fonts:CandombeRegular" fontSize="40" height="65">Play Now!</item>
+		<item id="buy" href="http://www.clubpenguin.com/membership/" fontSrc="com:clubpenguin:web:libs:fonts:BurbankBigRegularBold" fontSize="14" height="35">Become a Member</item>
+	</ui_list>
+	
+	<section_list type="array">
+		
+		<section id="STANDARD">
+			<title>Master the ancient art of Card-Jitsu to become a Ninja.</title>
+			
+			<instruction_list type="array">
+				<item>How to become a Ninja</item>
+				<item src="com:clubpenguin:web:www:cardjitsu:assets:standard:StepOneGraphic">Go to the Dojo</item>
+				<item src="com:clubpenguin:web:www:cardjitsu:assets:standard:StepTwoGraphic">Play Card-Jitsu to earn your belts.</item>
+				<item src="com:clubpenguin:web:www:cardjitsu:assets:standard:StepThreeGraphic">Challenge Sensei for your Ninja Mask.</item>
+			</instruction_list>
+		</section>
+		
+		<section id="FIRE">
+			<title>Become a Fire Ninja</title>
+			
+			<instruction_list type="array">
+				<item>1. Play Card-Jitsu to become a ninja.</item>
+				<item>2. Member ninjas, enter the Fire Dojo from the Hideout.</item>
+				<item>3. Play Card-Jitsu Fire to earn your Fire Suit.</item>
+				<item>4. Challenge Sensei.</item>
+			</instruction_list>
+			
+			<video src="video/card-jitsu-fire-path.flv" width="560" height="420">
+				<embed_code src="&lt;object width='400' height='315'&gt;&lt;param name='movie' value='./swf/CardJitsuVideoPlayer.swf' /&gt;&lt;param name='allowscriptaccess' value='always' /&gt;&lt;param name='flashvars' value='data=./xml/config-external-fire.xml' /&gt;&lt;embed src='./swf/CardJitsuVideoPlayer.swf' type='application/x-shockwave-flash' flashvars='data=./xml/config-external-fire.xml' allowscriptaccess='always' wmode='transparent' width='400' height='315'&gt;&lt;/embed&gt;&lt;/object&gt;">Embed Video:</embed_code>
+			</video>
+		</section>
+		
+		<section id="WATER">
+			<title>Become a Water Ninja</title>
+		
+			<instruction_list type="array">
+				<item>1. Play Card-Jitsu to become a ninja.</item>
+				<item>2. Member ninjas, enter the Water Dojo from the Hideout.</item>
+				<item>3. Play Card-Jitsu Water to earn your Water Suit.</item>
+				<item>4. Challenge Sensei.</item>
+			</instruction_list>
+			
+			<video src="video/card-jitsu-water-trailer.flv" width="560" height="420">
+				<embed_code src="&lt;object width='400' height='315'&gt;&lt;param name='movie' value='./swf/CardJitsuVideoPlayer.swf' /&gt;&lt;param name='allowscriptaccess' value='always' /&gt;&lt;param name='flashvars' value='data=./xml/config-external-water.xml' /&gt;&lt;embed src='./swf/CardJitsuVideoPlayer.swf' type='application/x-shockwave-flash' flashvars='data=./xml/config-external-water.xml' allowscriptaccess='always' wmode='transparent' width='400' height='315'&gt;&lt;/embed&gt;&lt;/object&gt;">Embed Video:</embed_code>
+			</video>
+		</section>
+		
+	</section_list>
+	
+	<callout_list type="array">
+		<callout>
+			<title>Trading Cards</title>
+			<body>Use Card-Jitsu cards to give yourself an edge in combat.</body>
+		</callout>
+		
+		<callout>
+			<title>Stamps</title>
+			<body>Earn rare stamps for your collection.</body>
+		</callout>
+	</callout_list>
+	
+</section>

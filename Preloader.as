@@ -64,7 +64,7 @@ package
             graphics.beginFill(0xFF0000, 0);
             graphics.drawRect(0, 0, 1600, 1050);
             graphics.endFill();
-            this.scrollRect = new Rectangle(0, 0, 1600, 1050);
+            //this.scrollRect = new Rectangle(0, 0, 1600, 1050);
             this._backgroundGraphic = new BackgroundGraphicPreloader();
             this._backgroundGraphic.x = (width * 0.5);
             this._backgroundGraphic.cacheAsBitmap = true;
@@ -158,13 +158,10 @@ package
 
         private function onBrowserResize(_arg_1:Event):void
         {
-            var _local_2:Number = (stage.stageWidth / MAIN_WIDTH);
-            scaleX = (scaleY = _local_2);
-            var _local_3:int = (_local_2 * MAIN_HEIGHT);
-            if (ExternalInterface.available)
-            {
-                ExternalInterface.call("setFlashHeight", "container", _local_3);
-            };
+            var s:Number = Math.min(stage.stageWidth / MAIN_WIDTH, stage.stageHeight / MAIN_HEIGHT);
+			scaleX = scaleY = s;
+			x = Math.round((stage.stageWidth - MAIN_WIDTH * s) / 2);
+			y = 0;
         }
 
 

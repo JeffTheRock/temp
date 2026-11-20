@@ -216,13 +216,13 @@ package com.clubpenguin.web.www.cardjitsu.mediators
 
         private function onBrowserResize(_arg_1:Event):void
         {
-            var _local_2:Number = (this.view.stage.stageWidth / MAIN_WIDTH);
-            this.view.scaleX = (this.view.scaleY = _local_2);
-            var _local_3:int = (_local_2 * MAIN_HEIGHT);
-            if (ExternalInterface.available)
-            {
-                ExternalInterface.call("setFlashHeight", "container", _local_3);
-            };
+			if (this.view.parent != this.view.stage) return;
+            var sw:Number = view.stage.stageWidth;
+			var sh:Number = view.stage.stageHeight;
+			var s:Number  = Math.min(sw / MAIN_WIDTH, sh / MAIN_HEIGHT);
+			view.scaleX = view.scaleY = s;
+			view.x = Math.round((sw - MAIN_WIDTH * s) / 2);
+			view.y = 0;
         }
 
 

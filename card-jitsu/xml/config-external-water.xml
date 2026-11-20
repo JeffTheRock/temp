@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section id="CARD_JITSU_EXTERNAL_PLAYER_WATER">
+	
+	<language>EN</language>
+	
+	<base_url href="./"/>
+	
+	<font_list type="array">
+		<item id="CandombeRegular" src="fonts/CandombeRegular.swf"/>
+	</font_list>
+	
+	<video id="WATER" src="../video/card-jitsu-water-trailer.flv" width="460" height="345"/>
+	
+	<embed_code src="&lt;object width='400' height='315'&gt;&lt;param name='movie' value='./swf/CardJitsuVideoPlayer.swf' /&gt;&lt;param name='allowscriptaccess' value='always' /&gt;&lt;param name='flashvars' value='data=./xml/config-external-water.xml' /&gt;&lt;embed src='./swf/CardJitsuVideoPlayer.swf' type='application/x-shockwave-flash' flashvars='data=./xml/config-external-water.xml' allowscriptaccess='always' wmode='transparent' width='400' height='315'&gt;&lt;/embed&gt;&lt;/object&gt;">Embed Video:</embed_code>
+
+</section>

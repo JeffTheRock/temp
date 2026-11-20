@@ -8,13 +8,13 @@ package
     import flash.display.LoaderInfo;
     import flash.system.Security;
 
-    public class Main extends Sprite 
+    public class VideoMain extends Sprite 
     {
 
         private var _mainContext:MainContext;
         private var addedToStageSignal:NativeSignal;
 
-        public function Main()
+        public function VideoMain()
         {
             this.addedToStageSignal = new NativeSignal(this, Event.ADDED_TO_STAGE, Event);
             this.addedToStageSignal.addOnce(this.onAddedToStage);

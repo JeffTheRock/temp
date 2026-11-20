@@ -28,6 +28,7 @@ package
 
         private function initSizePlaceHolder():void
         {
+			return;
             graphics.beginFill(0xFF00FF, 0);
             graphics.drawRect(0, 0, 1600, 1050);
             graphics.endFill();
